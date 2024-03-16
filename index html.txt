@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        /* Animação */
+        @keyframes colorChange {
+            0% { color: #ff0000; }
+            25% { color: #00ff00; }
+            50% { color: #0000ff; }
+            75% { color: #ffff00; }
+            100% { color: #ff00ff; }
+        }
+        h1 {
+            animation: colorChange 5s infinite;
+        }
+        /* Estilo dos ícones */
+        .icon {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo Pedro, Arthur e Denilson ao Meu Site</h1>
+    </header>
+    <section>
+        <p></p> <!-- Parágrafo em branco -->
+        <h2>Recursos:</h2>
+        <ul>
+            <li><i class="icon fas fa-code"></i>HTML</li>
+            <li><i class="icon fas fa-paint-brush"></i>CSS</li>
+            <li><i class="icon fab fa-js"></i>JavaScript</li>
+        </ul>
+    </section>
+</body>
+</html>
